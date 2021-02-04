@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Grenze+Gotisch:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap');
+
 /*font-family: 'Grenze Gotisch', cursive 800;
 font-family: 'Grenze Gotisch', cursive; 400*/
 @media (max-width: 960px) {
@@ -21,8 +21,7 @@ font-family: 'Grenze Gotisch', cursive; 400*/
 }
 
 body {
-  background-color: #987284;
-  background-image: url("images/flower1.jpg");
+  background-color: #B79FAD;
   color: white;
   font-family: 'Cinzel', serif;
   font-size: 20px;
@@ -32,7 +31,6 @@ body {
 
 h1, h2 {
   font-family: 'Grenze Gotisch', cursive;
-  font-weight: 400;
   font-size: 50px;
   line-height: 40px;
 }
@@ -68,11 +66,10 @@ a:hover {
 }
 
 .card {
-  background-color: rgba(152, 114, 132, 0.4);
+  background-color: rgba(117, 185, 190, 0.4);
   padding: 30px 100px;
   margin: 30px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border-radius: 15px;
 }
 
 .list-inline {
@@ -83,14 +80,4 @@ a:hover {
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
-}
-
-.icon > li > a {
-  font-size: 40px;
-  color: #4A051C;
-}
-
-.icon > li > a :hover {
-  font-size: 40px;
-  color: #823200;
 }
